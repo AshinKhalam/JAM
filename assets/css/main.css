@@ -98,7 +98,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #312450;
+		background: #ffffff;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -188,6 +188,7 @@ input, select, textarea {
 
 	h1 {
 		font-size: 2.75em;
+		color: black;
 	}
 
 		h1.major {
@@ -215,7 +216,7 @@ input, select, textarea {
 			}
 
 	h2 {
-		font-size: 1.75em;
+		font-size: 1.85em;
 	}
 
 	h3 {
@@ -241,7 +242,7 @@ input, select, textarea {
 		}
 
 		h2 {
-			font-size: 1.25em;
+			font-size: 1.45em;
 		}
 
 		h3 {
@@ -3240,7 +3241,8 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #5e42a6;
+			background-color: #dcdcdc;
+			color: black;
 		}
 
 		.wrapper.style1-alt {
@@ -3248,7 +3250,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style2 {
-			background-color: #5052b5;
+			background-color: #d60b0b;
 		}
 
 		.wrapper.style2-alt {
@@ -3256,7 +3258,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color: #b74e91;
+			background-color: #202020;
 		}
 
 		.wrapper.style3-alt {
@@ -3524,7 +3526,7 @@ input, select, textarea {
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #312450;
+		background: #890000;
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3761,14 +3763,14 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:before {
-				background: #3c2c62;
+				background: #515151;
 			}
 
 			#sidebar nav a:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: -moz-linear-gradient(to right, #8b8b8c, #ff4747);
+				background-image: -webkit-linear-gradient(to right, #8b8b8c, #ff4747);
+				background-image: -ms-linear-gradient(to right, #8b8b8c, #ff4747);
+				background-image: linear-gradient(to right, #8b8b8c, #ff4747);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -3907,3 +3909,8 @@ input, select, textarea {
 			}
 
 		}
+		.responsive {
+			max-width: 100%;
+			height: auto;
+			text-align: center;
+		  }
